@@ -1,0 +1,96 @@
+.app{
+background: #979696;
+
+}
+.nav-item{color:#000}
+.app a{text-decoration: none;}
+.login_sm a, .login_lg a{
+    text-decoration: none;
+    color:#333
+}
+.list-star{font-size:14px; list-style: none;padding-left: 5px;padding-right:10px}
+.rating>span{margin-bottom: -10px;}
+.rating button{height: 28px;}
+.rating table{border:1px solid #fff;
+    font-size: 14px ;
+}
+.hero-section{background: #fff;}
+.card_detail p, .card_detail a{font-size: 13px;line-height: 1;}
+.card_detail{border:1px solid #ddd;border-radius: 6px;box-shadow: 4px 6px 6px #ddd;overflow: hidden;}
+.card_detail:hover{box-shadow: 8px 8px 10px #ddd;}
+.card_detail .tyre{ position:absolute;bottom: -33px;
+    width: 180px;
+    right: -70px;
+    z-index: 9;}
+.bottom_links a{
+color:#fff
+}
+footer a{color: rgba(0,0,0,.5);}
+.about{background:#FFEAAA;}
+.about input{box-shadow: 0px 1px 1px #ffca28;
+    border: 1px solid #FFCA28;}
+.navbar-nav .nav-link {
+    color: #000;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #000;
+  }
+  .navbar-nav .nav-link:active {
+    color: blue!important;
+  }
+  .dropend .dropdown-toggle {
+    color: salmon;
+    margin-left: 1em;
+  }
+  .dropdown-item:hover {    
+    color: #000;
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover > .dropdown-menu,
+  .dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+  }
+
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        margin-left: 15%;        
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        width:175px
+    }
+    
+    .login_sm{display: none;}
+}
+  @media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    .dropend .dropdown-toggle {
+      margin-left: 0.5em;
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+  .col-md-6,.col-md-3{margin-bottom: 25px;}
+  .col-md-2{margin-bottom: 25px;text-align: center;}
+
+  }
+
+@media screen and (max-width: 991px) {
+  .logo{display: none;}
+  .navbar-toggler-icon{color:#000}
+  .login_lg{display: none;}
+  .navbar-toggler{
+    margin-left:-20px;
+    position: relative;
+    top:3%
+  }
+
+}
